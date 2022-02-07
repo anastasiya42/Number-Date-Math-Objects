@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Project 6</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Math, Date, and Number Object</h1>
+	</header>
+
+	<article><!-- Article 1 -->
+        
+        <h2>Math Object</h2>
+		<p>The math object is a set of properties and methods that give the values of certain mathematical constants, and perform calculations or operations. </p>
+		<p>In the demonstration below, a user inputs two numbers, which then go through the Math max(), min(), and pow() methods.</p>
+		
+		<!-- Use this div to display results of your math object -->
+		<div>
+			<h3>Demonstration of the Math Object</h3>
+            <form id="getNumbers">
+            Please enter two numbers to see the Math Object at work:<br><br>
+                <label for="fnum">First Number:</label>
+                <input type="text" id="fnum"><br>
+                <label for="snum">Second Number:</label>
+                <input type="text" id="snum"><br><br>
+                <input type="submit" value="Start Demo" onclick="mathMethods()">
+            </form>
+		
+		</div>
+	
+	</article>
+	
+	<article><!-- Article 2 -->
+        
+        <h2>Date Object</h2>
+		<p>Once an instance of the object you want to refer to is created, you can use the date object to set specific time values, as well as access certain time values for use in scripts.</p>
+		<p>Once the button is pressed below, an instance of the date object is created. The methods getDate(), getMonth(), and getFullYear() are then applied to the new instance to create variables that set the date in a DD/MM/YYYY format. The methods getMinutes() and getHours() are applied to the instance to create new variables that set the time in a HH:MM AM/PM format. </p>
+		
+		<!-- Use this div to display results of your date object -->
+		<div>
+			<h3>Demonstration of the Date Object</h3>
+				<div id="DateAndTime">
+                    <p>Click the button below to see the Date Object at work:</p>
+                    <input type="button" value="Start Demo" onclick="dateObject()">
+            </div>
+		</div>
+	
+	</article>
+	
+	<article>
+        
+        <h2>Number Object</h2>
+		<p>The number object has several properties and methods for using numbers in scripts.</p>
+		<p>When the button below is clicked, the toExponential() method of the Number Object is applied to the number 100.</p>
+		
+		<!-- Use this div to display results of your number object -->
+		<div>
+			<h3>Demonstration of the Number Object</h3>
+            <div id="getNumber">
+            <p>Click the button below to see the Number Object at work:</p>
+                <input type="button" value="Start Demo" onclick="numberObject()">
+            </div>
+		</div>
+	
+	</article>
+	
+</body>
+</html>

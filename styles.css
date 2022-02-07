@@ -1,0 +1,30 @@
+/*
+Name: Anastasiya Aleksandrova
+File Name: styles.css
+Project Name: Project 6
+Date: 10/27/2021
+*/
+
+body {
+	background-color: #fff1dc;
+}
+
+header {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+article {
+	margin: 2% 15%;
+	border: 4px solid #975b02;
+	padding: 2%;
+	background-color: #fdc168;
+}
+
+
+
+
+
